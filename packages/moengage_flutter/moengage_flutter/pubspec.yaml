@@ -23,7 +23,7 @@ dependencies:
   flutter:
     sdk: flutter
   moengage_flutter_android: 4.4.0
-  moengage_flutter_ios: 4.3.0
+  # moengage_flutter_ios: 4.3.0
   moengage_flutter_platform_interface: 4.0.1
   moengage_flutter_web: 5.1.0
 
@@ -37,5 +37,5 @@ dependency_overrides:
   moengage_flutter_ios:
     git:
       url: https://github.com/mgeyewa/Flutter-SDK.git
-      ref: 6ff11c05e5ac04e9769c1852f7fccfec5529a5ce
+      branch: master
       path: packages/moengage_flutter/moengage_flutter_ios
